@@ -11,11 +11,11 @@
 <h4>labels</h4>
   measurements of various telemetric data from the smart phone, in 3-dimensions. (see features.txt)
   
->variable labeled test are from a subset of volunteers as a control group. 
->variable labeled with train are volunteers participating in the training study.
-<br />  subject_test, y_train = volunteers numbered 1 thru 30
-<br />  y_test, y_train = activity 1 thru 6
-<br />  x_test, x_train = telemetric measurements over complete set of variables
+<h8>variable labeled test are from a subset of volunteers as a control group. 
+variable labeled with train are volunteers participating in the training study.</h8>
+<br />  <h4>subject_test, y_train </h4>= volunteers numbered 1 thru 30
+<br />  <h4>y_test, y_train </h4>= activity 1 thru 6
+<br />  <h4>x_test, x_train </h4>= telemetric measurements over complete set of variables
   
 <h3><h4>all_data</h4> is the complete data set 
 
