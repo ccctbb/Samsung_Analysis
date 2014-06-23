@@ -1,7 +1,5 @@
-Variables used in processing (and provided in initial data set see features.txt and features_info.txt):
----
-activityLabels <br />
-
+<h3>Variables used in processing (and provided in initial data set see features.txt and features_info.txt):</h3>
+<h4>activityLabels <br /></h4>
   1 WALKING <br />
   2 WALKING_UPSTAIRS<br />
   3 WALKING_DOWNSTAIRS<br />
@@ -10,23 +8,24 @@ activityLabels <br />
   6 LAYING <br />
 
 
-labels
-
+<h4>labels</h4>
   measurements of various telemetric data from the smart phone, in 3-dimensions. (see features.txt)
   
 >variable labeled test are from a subset of volunteers as a control group. 
 >variable labeled with train are volunteers participating in the training study.
->  subject_test|train = volunteers numbered 1 thru 30
->  y = activity 1 thru 6
->  x = telemetric measurements over complete set of variables
+>  subject_test, y_train = volunteers numbered 1 thru 30
+>  y_test, y_train = activity 1 thru 6
+>  x_test, x_train = telemetric measurements over complete set of variables
   
-all_data is the complete data set 
+<h3><h4>all_data</h4> is the complete data set 
 
-selectData is the subset of all_data filtered for only mean and standard deviation measurements
+<H5> processing notes included in variable descriptions</h5>
 
-subjectData is a split over selectData by subject (volunteer)
+<h4>selectData</H4> is the subset of all_data filtered for only mean and standard deviation measurements
 
-finalData is the stratified data frame, each row is the mean of the sets of measurements for a 
-particular subject engaged in a particular activity.
+<H4>subjectData</H4> is a split over selectData by subject (volunteer)
+
+<H4>finalData</H4> is the stratified data frame, each row is the mean of the sets of measurements for a 
+particular subject engaged in a particular activity.</h3>
 
 
