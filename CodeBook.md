@@ -1,15 +1,14 @@
 Variables used in processing (and provided in initial data set see features.txt and features_info.txt):
 
-activityLabels 
----
-```sh
-  1 WALKING
-  2 WALKING_UPSTAIRS
-  3 WALKING_DOWNSTAIRS
-  4 SITTING
-  5 STANDING
-  6 LAYING 
-```  
+activityLabels <br />
+
+  1 WALKING <br />
+  2 WALKING_UPSTAIRS<br />
+  3 WALKING_DOWNSTAIRS<br />
+  4 SITTING<br />
+  5 STANDING<br />
+  6 LAYING <br />
+
 
 labels
 ---
