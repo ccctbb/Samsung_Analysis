@@ -13,13 +13,13 @@
   
 >variable labeled test are from a subset of volunteers as a control group. 
 >variable labeled with train are volunteers participating in the training study.
->  subject_test, y_train = volunteers numbered 1 thru 30
->  y_test, y_train = activity 1 thru 6
->  x_test, x_train = telemetric measurements over complete set of variables
+<br />  subject_test, y_train = volunteers numbered 1 thru 30
+<br />  y_test, y_train = activity 1 thru 6
+<br />  x_test, x_train = telemetric measurements over complete set of variables
   
 <h3><h4>all_data</h4> is the complete data set 
 
-<H5> processing notes included in variable descriptions</h5>
+<H8> processing notes included in variable descriptions</h8>
 
 <h4>selectData</H4> is the subset of all_data filtered for only mean and standard deviation measurements
 
