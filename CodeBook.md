@@ -1,6 +1,7 @@
 Variables used in processing (and provided in initial data set see features.txt and features_info.txt):
 
 activityLabels 
+---
 ```sh
   1 WALKING
   2 WALKING_UPSTAIRS
@@ -11,10 +12,11 @@ activityLabels
 ```  
 
 labels
+---
   measurements of various telemetric data from the smart phone, in 3-dimensions. (see features.txt)
   
-variable labeled test are from a subset of volunteers as a control group. variable labeled with train are
-volunteers participating in the training study.
+>variable labeled test are from a subset of volunteers as a control group. 
+>variable labeled with train are volunteers participating in the training study.
 ```sh
 subject = volunteers numbered 1 thru 30
   y = activity 1 thru 6
